@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mExecutorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32ma select statement[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be executable with an extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to return all results[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be able to return an option of the first result[0m[0m
+[0m[[0minfo[0m] [0m[32man update[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require a transaction to run[0m[0m
+[0m[[0minfo[0m] [0m[32man insert[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require a transaction to run[0m[0m
+[0m[[0minfo[0m] [0m[32ma delete[0m[0m
+[0m[[0minfo[0m] [0m[32m- should require a transaction to run[0m[0m

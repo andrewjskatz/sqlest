@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mSelectSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32msimplest select possible[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with explicit column list[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeated calls to select.where()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should append new filters[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeated calls to select.order()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should append new orders[0m[0m
+[0m[[0minfo[0m] [0m[32mrepeated calls to select.page()[0m[0m
+[0m[[0minfo[0m] [0m[32m- should override the old values[0m[0m

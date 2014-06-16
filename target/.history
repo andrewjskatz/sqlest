@@ -1,0 +1,127 @@
+~compile
+~test
+project instrument
+~test
+~test-quick
+project statement
+~test-quick
+project statement
+compile
+~compile
+project sqlest
+~compile
+project common
+~test
+project commin
+project common
+compile
+~compile
+compile
+common/compile
+project statement
+~compile
+project statement
+~test
+~testQuick
+compile
+common/compile
+statement/compile
+project sqlest
+~testQuick
+project common
+~testQuick
+project statement
+~testQuick
+project statement
+~compile
+reload
+~compile
+reload
+~compile
+sqlest/compile
+project statement
+~test
+~testQuick
+root/compile
+~root/compile
+compile
+test
+root/compile
+root/test
+project
+project statement
+~test
+~testQuick
+project statement
+test
+~test
+~testQuick
+project statement
+compile
+project statement
+~testQuick
+project generation
+~testQuick
+project rest
+~test
+~testQuick
+project statement
+~testQuick
+project common
+~testQuick
+~compile
+project statement
+~compile
+services/publish
+sqlest/compile
+project common
+test
+project statement
+compile
+reload
+compile
+reload
+project sqlest
+compile
+clean
+compile
+clean
+compile
+clean
+compile
+~;clean;compile
+test
+~test-quick
+test
+exit
+test
+~;clean;test
+~test
+clean
+compile
+git st
+project common
+~test
+last
+~test
+project common
+~test
+project common
+~test-quick
+project statement
+compile
+reload
+compile
+reload
+compile
+test
+reload
+test
+clean
+compile
+reload
+clean
+compile
+test
+project
+exit

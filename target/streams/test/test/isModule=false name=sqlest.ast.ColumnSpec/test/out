@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0m[32mColumnSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32moption column equivalences[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow binary operators involving base types and their option types[0m[0m
+[0m[[0minfo[0m] [0m[32mcolumn equivalences[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow operations between different numeric types[0m[0m
+[0m[[0minfo[0m] [0m[32moption column equivalences[0m[0m
+[0m[[0minfo[0m] [0m[32m- should allow binary operators involving mapped and unmapped types[0m[0m
+[0m[[0minfo[0m] [0m[32mcolumn comparisons[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail for a mapped and an unmapped column[0m[0m
+[0m[[0minfo[0m] [0m[32moptional mapped columns[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work with non option comparisons correctly[0m[0m
+[0m[[0minfo[0m] [0m[32mbetween operator[0m[0m
+[0m[[0minfo[0m] [0m[32m- should fail when different mappings are applied to lower and upper[0m[0m
+[0m[[0minfo[0m] [0m[32msum[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce a unary column[0m[0m

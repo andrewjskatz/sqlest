@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mFindColumnSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcolumn finder[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in a single extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in a bare mapped extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in a bare list extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in a bare grouped extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in a bare product extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should NOT find a column in a mapped/product extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in named/product extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should find a column in nested named extractors[0m[0m

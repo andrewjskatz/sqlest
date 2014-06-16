@@ -1,0 +1,43 @@
+[0m[[0minfo[0m] [0m[32mExtractorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32msingle case class extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract appropriate data structures[0m[0m
+[0m[[0minfo[0m] [0m[32mtuple extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract appropriate data structures[0m[0m
+[0m[[0minfo[0m] [0m[32maggregate case class extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract appropriate data structures[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract appropriate data structures[0m[0m
+[0m[[0minfo[0m] [0m[32moption column types[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle nulls[0m[0m
+[0m[[0minfo[0m] [0m[32moption extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle nulls[0m[0m
+[0m[[0minfo[0m] [0m[32moption extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle nulls for compound tuples[0m[0m
+[0m[[0minfo[0m] [0m[32moption extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle nulls for compound values[0m[0m
+[0m[[0minfo[0m] [0m[32moption extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle nulls for nested compound values[0m[0m
+[0m[[0minfo[0m] [0m[32mcolumn and extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be usable together as arguments to `extractor`[0m[0m
+[0m[[0minfo[0m] [0m[32mmapped columns[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract the correct type[0m[0m
+[0m[[0minfo[0m] [0m[32mnested list extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should stop when the left value changes[0m[0m
+[0m[[0minfo[0m] [0m[32mnested list extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle columns with nullable fields[0m[0m
+[0m[[0minfo[0m] [0m[32mnested list extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be composable with option extractor[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work as peers within a tuple extractor[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work as peers within a mapped extractor[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work in a nested left join without groupBy[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should work in a nested left join with outer groupBy[0m[0m
+[0m[[0minfo[0m] [0m[32mlist extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty list for null rows[0m[0m
+[0m[[0minfo[0m] [0m[32mscalar function extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should extract value[0m[0m
+[0m[[0minfo[0m] [0m[32mscalar function extractor[0m[0m
+[0m[[0minfo[0m] [0m[32m- should compose with other extractors[0m[0m

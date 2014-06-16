@@ -1,0 +1,35 @@
+## TODO
+- column finders queries
+  - ~~create extractors and column finders in 1 step~~
+  - ~~rewrite .as(caseClassConstructor) to .as[CaseClassType] to avoid people breaking ColumnFinder~~
+- CRUD - primary key on table?
+  - ensure we can use withPrimaryKey on update/delete without writing .where(...) first
+    (i.e. update(table).set(...).withOptimisicLocking(...))
+- security in tables? - subject to uncommenting the real versions of `fetchAll` and `fetchOne` in `SecureExecutorSyntax.scala`
+- remove slick and collapse `dal.sqlest` and `dal.common` into `dal`
+- optimistic locking
+  - fix update/delete DSL so we can use withOptimisticLocking without writing .where(...) first
+    (i.e. update(table).set(...).withOptimisicLocking(...))
+- CASE operator
+- complex custom field types (CashValue)
+- improved extractor syntax for creating values from optional columns. The value should be optional if any of the columns are optional but the case class value is non-optional - see orderExtractor for an example use case
+- Consider making sqlest [reactive](https://github.com/davidmoten/rxjava-jdbc)
+- ConvertedTableColumns
+    - Boolean values are often stored in the database with 'Y' as true and '' or 'N' as false. Comparisons must somehow take this into account!!
+    - ~~if a ConvertedTableColumn is compared to a literal value the literal value must also be converted~~
+    - ~~if a ConvertedTableColumn is compared to another ConvertedTableColumn with different DatabaseType then should this fail to compile?~~
+    - ~~I had to make BaseType a non-sealed trait to enable BaseType[Direction] to be defined. This needs to be thought about~~
+- ~~IN operator~~
+- ~~one to many extractors - implement this for case class with lists in them~~
+- ~~BETWEEN operator~~
+- ~~remove extractColumn or merge it into extract somehow~~
+- ~~Database should maybe handle sessions / transactions~~
+- ~~extractList is repeated everywhere. Should this be changed so there is extractHeadOption too?~~
+- ~~top-level syntax to run a query and feed the results into an extractor~~
+- ~~table functions~~
+- ~~option extractors~~
+- ~~column conversions~~
+- ~~simple custom field types (Email, Url)~~
+- ~~insert, update, delete~~
+- ~~allow definition of custom functions (separate out operators from functions)~~
+- ~~improve hierarchy of Column and Extractors, especially in regard to SimpleAliasedColumn and ConvertedTableColumn~~

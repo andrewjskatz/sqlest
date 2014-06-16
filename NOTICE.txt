@@ -1,0 +1,7 @@
+Sqlest
+Copyright 2014 JHC Systems
+
+This product includes software developed at 
+JHC Systems Limited (http://www.jhc.co.uk/).
+
+This software contains code derived from Slick (https://github.com/slick/slick).

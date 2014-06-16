@@ -1,0 +1,51 @@
+[0m[[0minfo[0m] [0m[32mH2StatementBuilderSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mempty query[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render ok[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with aliased column function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mquery with simple where clause[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render ok[0m[0m
+[0m[[0minfo[0m] [0m[32mquery with compound where clause[0m[0m
+[0m[[0minfo[0m] [0m[32m- should render ok[0m[0m
+[0m[[0minfo[0m] [0m[32mselect from a single table[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect from a three table join[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect scalar function[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect connect by[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32minsert[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32minsert[0m[0m
+[0m[[0minfo[0m] [0m[32m- should treat constant columns as literals[0m[0m
+[0m[[0minfo[0m] [0m[32minsert columns[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32minsert with newRecord[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32minsert from select[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32minsert columns from select[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mupdate[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mdelete[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mwhere between[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mwhere in[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mwhere in list[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with limit only[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with offset only[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with limit and offset[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with group by[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mselect with multiple placeholders[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m
+[0m[[0minfo[0m] [0m[32mwhere clauses for option columns[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce the right sql[0m[0m

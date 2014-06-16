@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mMappedColumnTypeSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mMappedBooleanColumnType[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert database values to booleans[0m[0m
+[0m[[0minfo[0m] [0m[32mEnumerationColumnType[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert database values to the enumeration[0m[0m
+[0m[[0minfo[0m] [0m[32mZeroIsNoneColumnType[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert zeroes in database to None[0m[0m
+[0m[[0minfo[0m] [0m[32mYyyyMmDdColumnType[0m[0m
+[0m[[0minfo[0m] [0m[32m- should convert integers to date times[0m[0m
